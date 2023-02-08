@@ -13,7 +13,7 @@ function App() {
             : "Sorry:(, Today we not have birthdays"}
         </h3>
         <List people={people} />
-        <button onClick={() => setPeople([])}>Clear all</button>
+        <button onClick={() => setPeople([])}>Clear yall</button>
       </section>
     </main>
   );
